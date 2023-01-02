@@ -7,8 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "blog:dev": "vuepress dev blog",
+    "blog:build": "vuepress build blog",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

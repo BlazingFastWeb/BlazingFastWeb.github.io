@@ -1,0 +1,1 @@
+import{_ as t,p as e,q as o,R as n}from"./framework-96b046e1.js";const c={},_=n("p",null,"i am a root",-1),r=[_];function s(a,i){return e(),o("div",null,r)}const u=t(c,[["render",s],["__file","contributing.html.vue"]]);export{u as default};
