@@ -1,1 +1,0 @@
-import{_ as t,p as e,q as n,R as s}from"./framework-96b046e1.js";const _={},c=s("p",null,"getting-started",-1),o=[c];function r(a,l){return e(),n("div",null,o)}const i=t(_,[["render",r],["__file","getting-started..html.vue"]]);export{i as default};
