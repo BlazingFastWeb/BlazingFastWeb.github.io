@@ -7,6 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/BlazingFastWeb/BlazingFastWeb.github.io/issues"
   },
-  "homepage": "https://github.com/BlazingFastWeb/BlazingFastWeb.github.io#readme"
+  "homepage": "https://blazingfastweb.github.io/",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.60"
+  }
 }
