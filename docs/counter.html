@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang=en>
+<head>
+    <meta charset=UTF-8 />
+    <meta name=viewport content="width=device-width,initial-scale=1" />
+    <meta http-equiv=X-UA-Compatible content="ie=edge" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NDTXDPW5DC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NDTXDPW5DC');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N49B3HG');</script>
+    <!-- End Google Tag Manager -->
+    <title>Comming Soon</title>
+    <style>
+        p {
+            font-size: 2em;
+            font-weight: bold;
+            color: white;
+        }
+    </style>
+</head>
+
+<body style="background-color: black;">
+<div>
+    <p>Comming Soon...</p>
+    <p><span id="days"></span> DAYS</span></p>
+    <p><span id="hours"></span> HOURS</span></p>
+    <p><span id="minutes"></span> MINUTES</span></p>
+    <p><span id="seconds"></span> SECONDS</span></p>
+</div>
+<script type="text/javascript">
+  var countDownEndDate = "2023-03-31 09:00:00";
+  var endDate = new Date(countDownEndDate).getTime();
+
+  var x = setInterval(function () {
+    var timeNow = new Date().getTime();
+    var timeLeft = endDate - timeNow;
+
+    var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+    if (days < 10) { days = "0" + days; }
+    if (hours < 10) { hours = "0" + hours; }
+    if (minutes < 10) { minutes = "0" + minutes; }
+    if (seconds < 10) { seconds = "0" + seconds; }
+    if (timeLeft > 0) {
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("minutes").innerHTML = minutes;
+      document.getElementById("seconds").innerHTML = seconds;
+    }
+  }, 1000);
+</script>
+</body>
+</html>
